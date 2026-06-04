@@ -1,0 +1,29 @@
+## Poland Transcript — mission_transcript.txt
+Speaker A: So you're telling me you can only give our guys 40- five hours?  
+Speaker A: That brings them to about there.  
+Speaker A: (sigh) Gentlemen, that's not acceptable.  
+Speaker B: (overlapping) We've got to talk about power here.  
+Speaker A: Whoa, whoa, guys! Power is EVERYTHING.  
+Speaker A: Power is EVERYTHING.  
+Speaker B: What do you mean?  
+Speaker A: Without it, they don't talk to us- they don't correct their trajectory- they don't turn the heat shield around.  
+Speaker A: We gotta turn everything off, now.  
+Speaker A: They're not gonna make it to re-entry.  
+Speaker B: What do you mean, everything?  
+Speaker A: With everything on, the LEM draws 60 amps.  
+Speaker A: At that rate, in 16 hours, the batteries are dead- not 45- and so's the crew.  
+Speaker A: We gotta get them down to 12 amps.  
+Speaker B: 12?  
+Speaker B: How many-?  
+Speaker A: You can't run a vacuum cleaner on 12 amps, John.  
+Speaker A: We gotta turn off- we have to turn off the radars, cabin heater, instrument displays, the guidance computer, the whole smac.  
+Speaker B: Whoa, guidance computer? What if they need to do another burn?  
+Speaker B: Gene, they won't even know which way they're pointing.  
+Speaker A: The more time we talk down here, the more juice they waste up there.  
+Speaker A: I've been looking at the data for the past hour.  
+Speaker B: That's the deal?  
+Speaker A: That's the deal.  
+Speaker A: (sigh)  
+Speaker A: OK, John.  
+Speaker A: The minute we finish the burn, we'll power down the LEM.  
+Speaker B: Alright.

@@ -1,0 +1,24 @@
+## Jefferson Transcript — [filename]
+Director: So you're telling me you can only give our guys forty-five hours?
+Director: That brings them to about there.
+Director: Gentlemen, that's _not_ acceptable.
+Director: Gene, we gotta talk about the power here.
+John: <Whoa, whoa, guys>. (0.5) POWER is everything.=
+John: =Power is everything.
+Controller: What do you mean?
+John: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
+John: We gotta turn _everything_ off. (.) Now.
+John: They're not gonna make it to re-entry.
+Gene: What do you mean, everything?
+John: With everything on, the LEM draws sixty amps. (1.0) At that rate, in sixteen hours, the batteries are DEAD, not forty-five.
+John: °And so is the crew.°
+John: (0.8) We got to get them down to twelve amps.
+Gene: How many¿
+Gene: You can't run a vacuum cleaner on twelve amps, John.
+John: You got to turn off the radars, cabin heater, instrument displays, [the guidance computer, the whole smack.]
+Gene: [WHOA, guidance computer¿] What if they need to do another burn_
+John: Gene, they won't even know which way they're pointed.
+John: >The more time we talk down here, the more juice they waste up there.< .hhh I've been looking at the data for the past hour.
+Gene: That's the deal¿
+John: That's the deal.
+Gene: (1.5) ((deep sigh)) OK, John. The minute we finish the burn, we'll power down the limb.

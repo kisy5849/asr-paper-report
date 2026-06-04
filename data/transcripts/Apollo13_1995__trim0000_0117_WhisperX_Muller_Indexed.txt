@@ -1,0 +1,32 @@
+## Müller Transcript — [dialogue_scene]
+Speaker A: So you're telling me you can only give our guys forty-five hours¿
+Speaker A: That brings them to about there.
+Speaker A: (.) Gentlemen, that's __not__ accep[table.]
+Speaker B: [Gene,] we gotta talk about the power here.
+Speaker C: Whoa, whoa, guys.
+Speaker C: (.) Power is __everything__.
+Speaker C: {forte Power is __everything__}.
+Speaker A: What do you mean¿
+Speaker C: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
+Speaker B: We gotta turn everything off.
+Speaker B: (..) NOW.
+Speaker A: {piano They're not gonna make it to re-entry.}
+Speaker D: What do you mean, everything¿
+Speaker B: With everything on, the LEM draws sixty amps.
+Speaker B: At that rate, in sixteen hours, the batteries are __dead__, not forty-five.
+Speaker B: {lento And so is the crew.}
+Speaker B: We got to get them down to __twelve__ amps.
+Speaker D: How many¿
+Speaker A: You __can't__ run a vacuum cleaner on twelve amps, John.
+Speaker B: {allegro You got to turn off the radars, cabin heater, instrument displays, the guidance computer, the whole smack.}
+Speaker C: Whoa, guidance computer¿
+Speaker C: What if they need to do another burn¿
+Speaker B: Gene, they won't even know which way they're pointed.
+Speaker C: (1.0)
+Speaker C: The __more__ time we talk down here, the __more__ juice they waste up there.
+Speaker B: I've been looking at the data for the past hour.
+Speaker C: That's the deal¿=
+Speaker B: =That's the deal.
+Speaker C: (.)
+Speaker C: OK, John.
+Speaker C: The minute we finish the burn, we'll power down the limb.
