@@ -98,30 +98,69 @@ def load_transcript(clip, model, notation):
     text = re.sub(r'^##.*\n?', '', text, flags=re.MULTILINE).strip()
     return text
 
-# ── Highlighting ──────────────────────────────────────────────────────────────
+# ── Highlighting — single-pass tokenizer (avoids cascading regex on HTML) ─────
+_SPK_RE = re.compile(r'(?:Speaker [A-Z]+)\s*:')
+
+_NOTA_PATTERNS = {
+    "Jefferson": [
+        re.compile(r'\(\d+\.\d+\)|\(\.\)'),
+        re.compile(r':{2,}|\.hhh+|[↑↓¿→]'),
+        re.compile(r'_[^_\n]+_'),
+        re.compile(r'°[^°\n]+°'),
+        re.compile(r'={1,2}'),
+        re.compile(r'\(\([^)\n]*\)\)'),
+        re.compile(r'\[(?!\d{2}:\d{2})[^\]\n]*\]'),
+    ],
+    "Poland": [
+        re.compile(r'\.{3,}'),
+        re.compile(r'\.\.(?!\.)'),
+        re.compile(r'\(overlapping\)|\(long pause\)|\(pause\)|\(laugh[^)]*\)|\(cough[^)]*\)|\(sigh[^)]*\)', re.IGNORECASE),
+        re.compile(r'\b[A-Z]{2,}\b'),
+        re.compile(r'\bx{3,}\b', re.IGNORECASE),
+    ],
+    "BraunClarke": [
+        re.compile(r'\(\.\.\.\)|\(\.\.\)|\(\.\)'),
+        re.compile(r'\(\([^)\n]*\)\)'),
+        re.compile(r'\*[^*\n]+\*'),
+        re.compile(r'\[unclear\]|\[overlap\]', re.IGNORECASE),
+        re.compile(r'\b[A-Z]{2,}\b'),
+    ],
+    "Muller": [
+        re.compile(r'\(\d+\.?\d*\)|\(\.{1,3}\)'),
+        re.compile(r':{2,}|[↑↓¿]'),
+        re.compile(r'__\S+__'),
+        re.compile(r'\{[A-Za-z ]+\}'),
+        re.compile(r'\([xX]+\)'),
+        re.compile(r'\(\([^)\n]*\)\)'),
+        re.compile(r'={1,2}'),
+        re.compile(r'\b[A-Z]{2,}\b'),
+    ],
+}
+
 def highlight(text, notation):
-    e = html_lib.escape(text)
-    if notation == "Jefferson":
-        e = re.sub(r'(Speaker [A-Z]:)', r'<span style="color:#4285F4;font-weight:700">\1</span>', e)
-        e = re.sub(r'(\(\d+\.\d+\)|\(\.\))', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(:{2,}|\.hhh+|[↑↓¿→]|_\w[\w\s]*?_|°[^°]+°|={1,2}|\(\([^)]+\)\))', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(\[\s)', r'<span style="color:#A5D6A7">[</span> ', e)
-    elif notation == "Poland":
-        e = re.sub(r'(Speaker [A-Z]:)', r'<span style="color:#4285F4;font-weight:700">\1</span>', e)
-        e = re.sub(r'(\.\.\.\.*|\.\.)(?!\.)', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(\(overlapping\)|\(long pause\)|\(pause\)|\(laugh[^)]*\)|\(cough[^)]*\)|\(sigh[^)]*\))', r'<span style="color:#A5D6A7">\1</span>', e, flags=re.IGNORECASE)
-        e = re.sub(r'(\b[A-Z]{2,}\b)', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(\bx{3,}\b)', r'<span style="color:#A5D6A7">\1</span>', e, flags=re.IGNORECASE)
-    elif notation == "BraunClarke":
-        e = re.sub(r'(Speaker [A-Z]:)', r'<span style="color:#4285F4;font-weight:700">\1</span>', e)
-        e = re.sub(r'(\(\.\.\.\)|\(\.\.\)|\(\.\)|\(\([^)]+\)\)|\*\w[\w\s]*?\*|\[unclear\]|\[overlap\])', r'<span style="color:#A5D6A7">\1</span>', e, flags=re.IGNORECASE)
-        e = re.sub(r'(\b[A-Z]{2,}\b)', r'<span style="color:#A5D6A7">\1</span>', e)
-    elif notation == "Muller":
-        e = re.sub(r'(Speaker [A-Z]:)', r'<span style="color:#4285F4;font-weight:700">\1</span>', e)
-        e = re.sub(r'(\(\d+\.?\d*\)|\(\.{1,3}\))', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(:{2,}|__\S+__|[↑↓¿]|\{[A-Za-z ]+\}|\([xX]+\)|\(\([^)]+\)\)|={1,2})', r'<span style="color:#A5D6A7">\1</span>', e)
-        e = re.sub(r'(\b[A-Z]{2,}\b)', r'<span style="color:#A5D6A7">\1</span>', e)
-    return e.replace('\n', '<br>')
+    """Single-pass: collect all spans, sort, build HTML once — no cascading regex."""
+    spans = []
+    for m in _SPK_RE.finditer(text):
+        spans.append((m.start(), m.end(), 'spk'))
+    for pat in _NOTA_PATTERNS.get(notation, []):
+        for m in pat.finditer(text):
+            spans.append((m.start(), m.end(), 'mrk'))
+
+    spans.sort(key=lambda x: (x[0], -(x[1] - x[0])))
+
+    out, pos = [], 0
+    for start, end, cls in spans:
+        if start < pos:
+            continue
+        out.append(html_lib.escape(text[pos:start]))
+        seg = html_lib.escape(text[start:end])
+        if cls == 'spk':
+            out.append(f'<span style="color:#4285F4;font-weight:700">{seg}</span>')
+        else:
+            out.append(f'<span style="color:#A5D6A7">{seg}</span>')
+        pos = end
+    out.append(html_lib.escape(text[pos:]))
+    return ''.join(out).replace('\n', '<br>')
 
 # ── CSS ───────────────────────────────────────────────────────────────────────
 st.markdown("""
