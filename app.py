@@ -99,7 +99,7 @@ def load_transcript(clip, model, notation):
     return text
 
 # ── Highlighting — single-pass tokenizer (avoids cascading regex on HTML) ─────
-_SPK_RE = re.compile(r'(?:Speaker [A-Z]+)\s*:')
+_SPK_RE = re.compile(r'(?m)^[A-Za-z][A-Za-z0-9 ]{0,20}:')
 
 _NOTA_PATTERNS = {
     "Jefferson": [
