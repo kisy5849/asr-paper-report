@@ -56,7 +56,7 @@ NOTATION_KEYS = {
     "Jefferson":   "[ overlap  |  = latching  |  (.) micro-pause  |  (1.2) timed pause  |  ↑↓ pitch  |  :: lengthening  |  .hhh breath  |  _word_ emphasis  |  ¿ weak rising  |  → marked  |  ((…)) paralinguistic",
     "Poland":      ".. short pause  |  ... ~1s pause  |  (overlapping)  |  CAPS emphasis  |  (laughing) non-verbal  |  xxxxx inaudible  |  \"quoted\" reported speech",
     "BraunClarke": "(.) micro  |  (..) short  |  (...) long  |  (( )) paralinguistic  |  [unclear]  |  [overlap]  |  *word* emphasis  |  CAPS stress",
-    "Muller":      "¿ rising  |  ↑↓ pitch  |  :: lengthening  |  __word__ emphasis  |  word- cutoff  |  CAPS loud  |  (.) beat pause  |  (2.5) timed  |  = latching  |  [ overlap start  |  * overlap end  |  {B} breathy  |  {W} whisper  |  {piano} quiet  |  {forte} loud  |  (xXx) syllables  |  (( )) non-verbal",
+    "Muller":      "¿ rising  |  ↑↓ pitch  |  :: lengthening  |  __word__ emphasis  |  word- cutoff  |  CAPS loud  |  (.) beat pause  |  (2.5) timed  |  = latching  |  [ overlap start  |  * overlap end  |  {B} breathy  |  {piano} quiet  |  (xXx) syllables  |  (( )) non-verbal",
 }
 
 CLIPS = ["Apollo13", "PaperChain", "Primer", "TheMeyerowitzStories"]
@@ -98,7 +98,7 @@ def load_transcript(clip, model, notation):
     text = re.sub(r'^##.*\n?', '', text, flags=re.MULTILINE).strip()
     return text
 
-# ── Highlighting — single-pass tokenizer (avoids cascading regex on HTML) ─────
+# ── Highlighting — single-pass tokenizer ──────────────────────────────────────
 _SPK_RE = re.compile(r'(?m)^[A-Za-z][A-Za-z0-9 ]{0,20}:')
 
 _NOTA_PATTERNS = {
@@ -138,16 +138,13 @@ _NOTA_PATTERNS = {
 }
 
 def highlight(text, notation):
-    """Single-pass: collect all spans, sort, build HTML once — no cascading regex."""
     spans = []
     for m in _SPK_RE.finditer(text):
         spans.append((m.start(), m.end(), 'spk'))
     for pat in _NOTA_PATTERNS.get(notation, []):
         for m in pat.finditer(text):
             spans.append((m.start(), m.end(), 'mrk'))
-
     spans.sort(key=lambda x: (x[0], -(x[1] - x[0])))
-
     out, pos = [], 0
     for start, end, cls in spans:
         if start < pos:
@@ -155,7 +152,7 @@ def highlight(text, notation):
         out.append(html_lib.escape(text[pos:start]))
         seg = html_lib.escape(text[start:end])
         if cls == 'spk':
-            out.append(f'<span style="color:#4285F4;font-weight:700">{seg}</span>')
+            out.append(f'<span style="color:#64B5F6;font-weight:700">{seg}</span>')
         else:
             out.append(f'<span style="color:#A5D6A7">{seg}</span>')
         pos = end
@@ -168,6 +165,14 @@ st.markdown("""
 [data-testid="stSidebar"] { background: #0a0a18; }
 [data-testid="stSidebar"] * { color: #ccc !important; }
 .block-container { padding-top: 1rem; }
+.cover-grid { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:16px; }
+.cover-card {
+    background:#0f0f2a; border:1px solid #1e2a4a; border-radius:10px;
+    padding:14px 16px; flex:1; min-width:160px;
+}
+.cover-card h4 { margin:0 0 8px 0; font-size:13px; color:#ccc; }
+.cover-card p, .cover-card li { font-size:11px; color:#888; line-height:1.7; margin:0; }
+.cover-card ul { padding-left:14px; margin:0; }
 .tx-panel {
     background: #131330; border: 1px solid #1e2a4a; border-radius: 8px;
     padding: 10px; font-family: 'Cascadia Code','Fira Code',monospace;
@@ -188,6 +193,11 @@ st.markdown("""
     padding: 8px 12px; font-size: 11px; color: #666;
     margin-bottom: 12px; line-height: 1.8;
 }
+.analysis-note {
+    background:#1a1000; border-left:3px solid #ffb74d;
+    border-radius:6px; padding:10px 14px;
+    font-size:11px; color:#aaa; line-height:1.8; margin-bottom:14px;
+}
 .metric-table { width: 100%; border-collapse: collapse; font-size: 12px; }
 .metric-table th { background: #1a1a3a; color: #888; padding: 6px 12px; text-align: left; }
 .metric-table td { padding: 6px 12px; border-bottom: 1px solid #1a2236; }
@@ -197,28 +207,67 @@ st.markdown("""
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### 🎙️ ASR Paper Report")
-    st.markdown('<div style="font-size:11px;color:#555">5 Models · 4 Notations · 4 Clips</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:11px;color:#555">5 Models · 4 Notations · 4 Clips<br>Within-notation comparison</div>', unsafe_allow_html=True)
     st.divider()
 
-    clip = st.radio(
-        "**Clip**",
-        CLIPS,
-        format_func=lambda c: CLIP_LABELS[c],
-    )
+    clip = st.radio("**Clip**", CLIPS, format_func=lambda c: CLIP_LABELS[c])
+    st.divider()
+    notation = st.radio("**Notation System**", NOTATIONS, format_func=lambda n: NOTATION_LABELS[n])
     st.divider()
 
-    notation = st.radio(
-        "**Notation System**",
-        NOTATIONS,
-        format_func=lambda n: NOTATION_LABELS[n],
+    # Model legend
+    model_pills = " ".join(
+        f'<span style="color:{MODEL_COLORS[m]};font-size:10px">● {MODEL_LABELS[m]}</span>'
+        for m in MODELS
     )
-    st.divider()
-    st.markdown(f'<div style="font-size:10px;color:#444">Speaker labels ON<br>Timestamps OFF<br>No GPT-4o Diarize</div>', unsafe_allow_html=True)
+    st.markdown(model_pills, unsafe_allow_html=True)
+    st.markdown('<div style="font-size:10px;color:#444;margin-top:6px">Speaker labels ON · Timestamps OFF · No GPT-4o Diarize</div>', unsafe_allow_html=True)
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 nc = NOTATION_COLORS[notation]
 
-# Breadcrumb
+# ── Cover info cards ──────────────────────────────────────────────────────────
+with st.expander("📋 Study Overview", expanded=False):
+    notation_items = "".join(
+        f'<li><span style="color:{NOTATION_COLORS[n]}">{NOTATION_LABELS[n]}</span></li>'
+        for n in NOTATIONS
+    )
+    model_items = "".join(
+        f'<li><span style="color:{MODEL_COLORS[m]}">{MODEL_LABELS[m]}</span></li>'
+        for m in MODELS
+    )
+    clip_items = "".join(f'<li>{CLIP_INFO[c]}</li>' for c in CLIPS)
+    st.markdown(f"""
+    <div class="cover-grid">
+      <div class="cover-card">
+        <h4>Models (5)</h4>
+        <ul>{model_items}</ul>
+      </div>
+      <div class="cover-card">
+        <h4>Notation Systems (4)</h4>
+        <ul>{notation_items}</ul>
+      </div>
+      <div class="cover-card">
+        <h4>Audio Clips (4)</h4>
+        <ul>{clip_items}</ul>
+      </div>
+      <div class="cover-card">
+        <h4>⚠ WhisperX Note</h4>
+        <p>2-step pipeline: (1) local ASR → plain text, (2) Gemini 2.5 Pro applies notation to text only.
+        Prosodic markers (pitch, breath, timed pauses) <b>cannot be observed from text</b>.</p>
+      </div>
+      <div class="cover-card">
+        <h4>⚠ Analysis Notes</h4>
+        <p><b>Do not compare raw marker counts across notations.</b>
+        Each notation has different marker types (Jefferson=11, Poland=7, B&amp;C=7, Müller=14).
+        Use CV (within-notation SD/mean) for cross-notation comparisons.<br><br>
+        GPT-audio ranks #1 on 3/4 notations; Gemini 2.5 Pro ranks #1 on Jefferson (mean=23).
+        GPT-audio Mini is last on all 4.</p>
+      </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# ── Breadcrumb ────────────────────────────────────────────────────────────────
 st.markdown(
     f"**{CLIP_LABELS[clip]}** &rsaquo; "
     f"<span style='color:{nc};font-weight:700'>{NOTATION_LABELS[notation]}</span>"
@@ -226,7 +275,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Reference + key
+# Notation reference + key
 st.markdown(
     f'<div class="nota-key">'
     f'<span style="color:{nc};font-weight:700">{NOTATION_REF[notation]}</span><br>'
@@ -235,7 +284,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Metrics table
+# ── Metrics table ─────────────────────────────────────────────────────────────
 df = load_metrics()
 mask = (
     (df["Clip"] == CLIP_LABELS[clip]) &
@@ -273,14 +322,13 @@ st.markdown(
 
 st.divider()
 
-# Transcript panels — 5 columns
+# ── Transcript panels — 5 columns ─────────────────────────────────────────────
 cols = st.columns(5)
 for i, (model, col) in enumerate(zip(MODELS, cols)):
     lbl  = MODEL_LABELS[model]
     mc   = MODEL_COLORS[model]
     text = load_transcript(clip, model, notation)
 
-    # Metrics for this model
     if lbl in sub.index:
         wc = sub.loc[lbl, "Word Count"]
         sp = sub.loc[lbl, "Speakers"]
@@ -313,7 +361,4 @@ for i, (model, col) in enumerate(zip(MODELS, cols)):
         else:
             body = '<span style="color:#444;font-style:italic">— transcript not found —</span>'
 
-        st.markdown(
-            f'<div class="tx-panel">{body}</div>',
-            unsafe_allow_html=True,
-        )
+        st.markdown(f'<div class="tx-panel">{body}</div>', unsafe_allow_html=True)
