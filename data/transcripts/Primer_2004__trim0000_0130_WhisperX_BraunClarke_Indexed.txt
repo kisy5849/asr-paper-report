@@ -1,38 +1,46 @@
-## Braun & Clarke Transcript — verbatim_transcript.txt
-Speaker A: makes the ceramic less resistant (.) knocks out the interior magnetic field
-Speaker B: knocks out?
-Speaker A: exactly (.) what he's saying is... what i'm saying is drop the box down on it
-Speaker B: okay (.) focus our own magnetic field to the gate (..) knock out with the inverse what's going on inside the ceramic
-Speaker A: *that's smart*
-Speaker A: and that's to change the transition temperature to something we can work with
-Speaker B: what are we seeing that is?
-Speaker A: hopefully near room temperature
-Speaker B: what is that about (.) uh (.) "the best mathematician is the lazy one"?
-Speaker A: what did you ask for?
-Speaker B: i asked (.) are these type one?
-Speaker A: yeah
-Speaker B: what'd you call it- NO no no are these *type one* right? (.) superconductors
-Speaker A: yeah they're type one
-Speaker B: WHAT? (.) is that gonna be a problem?
-Speaker C: there's plenty of line around at work but they're all barcoded so...
-Speaker C: well if i have to buy the kids i'll buy the kids (.) what are you doing about this?
-Speaker A: what?
-Speaker C: i can get them
-Speaker A: are you sure? (..) i thought you didn't like this idea anyways
-Speaker C: yeah i mean you're right (.) if you gotta buy them you gotta buy them but i think everything else we can take care of
-Speaker A: what are you doing about the source here?
-Speaker B: you know that story about how NASA spent millions of dollars developing this pen that writes in zero-g? did you ever read that?
-Speaker A: yeah
-Speaker B: and how russia solved the problem?
-Speaker A: yeah they used a pencil
-Speaker B: right a normal wooden pencil (..) just seems like philip ticks the nasser out almost every time
-Speaker A: so palladium right? (.) do you have their diagram man? what does it say?
-Speaker B: well they use the ratio of both (.) platinum and palladium but i don't know if that's necessary with the change i make (..) i think they're just showing off
-Speaker A: if you have it you gotta use it right?
-Speaker C: [hey you guys] i want to get a replacement router
-Speaker A: i'm putting out four ounces of palladium
-Speaker B: uh did robert look at it?
-Speaker C: yeah i already got it (.) i can't fix it
-Speaker B: ok where are you getting it?
-Speaker C: walmart (.) it's like fifty bucks
-Speaker B: ok
+## Braun & Clarke Transcript — [audio_file.mp3]
+Speaker 1: makes the ceramic less resistant (.) knocks out the interior magnetic field.
+Speaker 2: knocks out?
+Speaker 1: exactly (.) what he's saying is
+Speaker 2: what I'm saying is (.) drop the box down on it.
+Speaker 1: okay (.) focus our own magnetic field to the gate (.) knock out with the inverse what's going on inside the ceramic.
+Speaker 2: that's smart.
+Speaker 1: and that's to change the transition temperature to something we can work with.
+Speaker 2: what are we seeing that is?
+Speaker 1: hopefully near room temperature.
+Speaker 3: what is that about (.) uh (.) the best mathematician is the lazy one?
+Speaker 1: what did you ask for?
+Speaker 3: i asked (.) are these type one?
+Speaker 1: yeah.
+Speaker 3: what'd you call it? no (.) no (.) no (.) are these type one (.) right? superconductors.
+Speaker 1: yeah (.) they're type one.
+Speaker 3: what? is that gonna be a problem?
+Speaker 1: there's plenty of line around at work (.) but they're all barcoded (.) so
+Speaker 3: well (.) if i have to buy the kids (.) i'll buy the kids.
+Speaker 2: what are you doing about this?
+Speaker 3: what?
+Speaker 2: i can get them.
+Speaker 3: are you sure?
+Speaker 2: i thought you didn't like this idea anyways.
+Speaker 3: yeah (.) i mean (.) you're right (.) if you gotta buy them (.) you gotta buy them (.) but i think everything else we can take care of.
+Speaker 1: what are you doing about the source here?
+Speaker 2: you know that story about how NASA spent millions of dollars developing this pen that writes in zero-g? did you ever read that?
+Speaker 1: yeah.
+Speaker 2: and how russia solved the problem?
+Speaker 1: yeah (.) they used a pencil.
+Speaker 2: right (.) a normal wooden pencil.
+Speaker 1: just seems like [name] ticks the [name] out almost every time.
+Speaker 1: so palladium (.) right?
+Speaker 2: do you have their diagram (.) man?
+Speaker 1: what does it say?
+Speaker 2: well (.) they use the ratio of both (.) platinum and palladium.
+Speaker 1: but i don't know if that's necessary with the change i make (.) i think they're just showing off.
+Speaker 2: if you have it (.) you gotta use it (.) right?
+Speaker 3: hey (.) you guys (.) i want to get a replacement router.
+Speaker 1: i'm putting out four ounces of palladium.
+Speaker 2: uh (.) did [name] look at it?
+Speaker 3: yeah (.) i already got it (.) i can't fix it.
+Speaker 2: OK (.) where are you getting it?
+Speaker 3: [store name]
+Speaker 3: it's like fifty bucks.
+Speaker 2: OK.

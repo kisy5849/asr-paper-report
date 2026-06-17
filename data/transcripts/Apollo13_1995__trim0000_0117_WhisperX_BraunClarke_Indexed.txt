@@ -1,16 +1,27 @@
-## Braun & Clarke Transcript — apollo_13_power_dialogue
-Speaker A: So you're telling me you can only give our guys 45 hours? That brings them to about there... Gentlemen, that's NOT acceptable. (..) Gene, we gotta talk about the power here.
-Speaker B: Whoa, whoa, guys.
-Speaker A: Power is everything. (.) POWER is everything.
-Speaker B: What do you mean?
-Speaker A: Without it, they don't talk to us (.) they don't correct their trajectory (.) they don't turn the heat shield around. (..) We gotta turn everything off. (.) NOW. They're not gonna make it to re-entry.
-Speaker B: What do you mean, everything?
-Speaker A: With everything on, the LEM draws 60 amps. At that rate, in 16 hours, the batteries are DEAD, not 45. (..) *and so is the crew.* We got to get them down to 12 amps.
-Speaker B: How many?
-Speaker C: You CAN'T run a vacuum cleaner on 12 amps, John.
-Speaker A: You got to turn off the radars, cabin heater, instrument displays, the guidance computer, the whole smack.
-Speaker B: Whoa, GUIDANCE computer? What if they need to do another burn?
-Speaker A: Gene, they WON'T even know which way they're pointed. The more time we talk down here, the more juice they waste up there. (.) I've been looking at the data for the past hour.
-Speaker B: (.) That's the deal?
-Speaker A: *That's the deal.*
-Speaker B: OK, John. (..) The minute we finish the burn, we'll power down the limb.
+## Braun & Clarke Transcript — [audio_file]
+Speaker 1: so you're telling me you can only give our guys forty-five hours?
+Speaker 1: that brings them to about there.
+Speaker 1: gentlemen, that's _not_ acceptable.
+Speaker 1: Gene, we gotta talk about the power here.
+John: whoa, whoa, guys. power is _everything_.
+John: power is _everything_.
+Speaker 2: what do you mean?
+John: without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
+John: we gotta turn everything off. _now_.
+Speaker 1: they're not gonna make it to re-entry.
+Speaker 2: what do you mean, _everything_?
+John: with everything on, the LEM draws sixty amps.
+John: at that rate, in sixteen hours, the batteries are dead, not forty-five.
+John: and so is the _crew_.
+John: we got to get them down to twelve amps.
+Speaker 2: how many?
+Gene: you can't run a vacuum cleaner on twelve amps, John.
+John: you got to turn off the radars, cabin heater, instrument displays, the guidance computer, the _whole smack_.
+Gene: _whoa_, guidance computer?
+Gene: what if they need to do another burn?
+John: Gene, they won't even know which way they're pointed.
+Speaker 1: the more time we talk down here, the more juice they waste up there.
+John: I've been looking at the data for the past hour.
+John: that's the _deal_?
+Speaker 1: that's the _deal_.
+Gene: OK, John. the minute we finish the burn, we'll power down the limb.
