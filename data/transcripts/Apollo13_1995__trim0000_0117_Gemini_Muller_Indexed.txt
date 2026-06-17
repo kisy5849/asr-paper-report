@@ -1,28 +1,39 @@
-## Müller Transcript — [audio_clip.mp3]
-Speaker A: so you're telling me you can only give our guys forty five hours.
-Speaker A: (2.0) ((taps on chalkboard)) that brings them to about there.
-Speaker A: (4.5) gentlemen, that's unacceptable.
-Group: [ (overlapping agitated voices) (xXx) we gotta talk about the power here (xXx) *]
-Speaker A: [ WHOA whoa, guys,* (.) power is everything.
-Speaker A: (.) power is __everything__.
-Speaker B: what do you mean¿
-Speaker A: without it they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
-Speaker A: I- we gotta turn everything off.
-Speaker A: (.) __now__.
-Speaker A: (.) they're not gonna make it through reentr[y. *]
-Speaker B: [ what do you mean everything¿ *]
-Speaker C: with everything on the LEM draws sixty amps.
-Speaker C: at that rate in sixteen hours the batteries are __dead__ (.) not forty-five.
-Speaker C: and so's the crew. we got to get them down to twelve amps.
-Group: [ (shouts of protest) twelve¿ twelve amps¿ (xXx) *]
-Speaker C: [ you can't run a vacuum cleaner on twelve amps John,*]
-Group: [ (xXx) gotta turn off (xXx) *]
-Speaker C: [ we have to turn off the radars,*] the cabin heater, instrument displays, the guidance computer, the whole schmear.
-Speaker D: whoa, guidance computer¿ what if they need to do another burn¿ gene they won't even know which way they're pointed.
-Speaker C: {allegro the more time we talk down here the more juice they waste up there}. I've been looking at the data for the past hour.
-Speaker A: that's the deal¿
-Speaker C: =that's the deal.
-(5.5)
-Speaker A: {piano okay john.}
-Speaker A: (1.0) and when we finish the burn, we'll power down the LEM.
-Speaker C: alright.
+## Müller Transcript — [Apollo_13_Power_Scene.mp4]
+Speaker A: So you're telling me, you can only give our guys forty five __hours__?
+(4.0)
+Speaker A: that brings 'em to about there. ((sound of cue hitting ball))
+(4.5)
+Speaker A: Gentlemen, that's not acceptable.
+((uproar from multiple speakers, voices overlap for 2.5s))
+Speaker A: Whoa whoa- whoa guys,
+(.)
+Speaker B: Power is everything.
+Speaker C: What do you mean?
+Speaker B: Power is everything.
+(.)
+Speaker B: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
+(.)
+Speaker B: we gotta turn everything off. (.) __Now__.
+(.)
+Speaker B: They're not gonna make it through reentry.=
+Speaker C: =What do you mean everything?
+Speaker B: With everything on, the lem draws sixty amps.
+(.)
+Speaker B: At that rate in __sixteen__ hours the batteries are dead, not forty-five.
+(.)
+Speaker B: And so's the crew. we gotta get them down to __twelve__ amps.
+((murmurs of disbelief from several speakers, e.g. "Twelve?", "Twelve amps?"))
+Speaker C: You can't run a vacuum cleaner on twelve amps John.
+((overlapping chatter))
+Speaker B: We have to turn off the radars, the cabin heater, instrument displays, the guidance computer, the whole schm[ear-]*
+Speaker D: [Whoa,]* guidance computer, what if they need to do another burn, Gene, they won't even know which way they're pointed.
+Speaker B: {allegro} The more time we talk down here the more juice they waste up there.} I've been looking at the data for the past hour.
+Speaker A: That's the deal?
+Speaker B: That's the deal.
+(6.0)
+Speaker A: Okay John.
+(1.5)
+Speaker A: The minute we finish the burn, we'll power down the lem.
+(.)
+Speaker B: Alright.
+((sounds of movement and papers rustling))

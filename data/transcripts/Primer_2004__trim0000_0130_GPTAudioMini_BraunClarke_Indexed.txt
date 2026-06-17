@@ -1,40 +1,59 @@
-## Braun & Clarke Transcript — conversation_001
+## Braun & Clarke Transcript — [filename]
 
-P: makes the ceramic less resistant, knocks out the interior magnetic field  
-I: exactly… exactly. What—what he's saying is—  
-P: what I'm saying is, drop the box down on it, okay, focus our own magnetic field to the gate, knock out with the inverse what's going on inside the ceramic  
-I: smart. And that's the change the transition temperature to something we can work with. What are we seeing that is?  
-P: hopefully near room temperature.  
-I: (.) What is that about the best mathematician's the lazy one?  
-P: what did you ask for?  
-I: I asked—  
-P: are these type one?  
-I: yeah. What'd you call it?  
-P: no, no, no—are these type one right here?  
-I: superconductors.  
-P: yeah, they're type one.  
-I: (.) What—is that going to be a problem?  
-P: there's plenty lying around at work, but they're all barcode-ed, so…  
-I: well, if I had to buy the kids, I'll buy the kids.  
-P: what are you doing about this—  
-I: ((sighs))  
-P: —superconductor?  
-I: what? I can get them.  
-P: you can—are you sure? Thought you didn't like this idea anyways.  
-I: yeah, I mean, you're right. If you got to buy them, you got to buy them, but I think everything else we can take care of.  
-P: what are you doing about the source here?  
-I: you know that story—about how NASA spent millions of dollars developing this pen that writes in zero-G? Did you ever read that?  
-P: yeah.  
-I: (.) And how Russia solved the problem?  
-P: yeah, they used a pencil.  
-I: right, a normal wooden pencil.  
-P: just seems like Philip takes NASA out almost every time.  
-I: so platinum, right? Do you have their diagram? What does it—  
-P: well, they use the ratio of both—platinum and palladium—but I don't know if that's necessary with the change I made. I think they're just showing off. If you have it, you got to use it, right?  
-I: hey, you guys want to get a replacement rather?  
-P: I'm putting down 4 ounces of palladium. Did Robert look at it?  
-I: yeah, I already got it.  
-P: I can't fix it.  
-I: okay, where are you getting it?  
-P: um, Walmart—it's like 50 bucks.  
-I: okay.
+Speaker 1: makes the ceramic less resistant, _knocks out_ the interior magnetic field.
+
+Speaker 2: exactly, exactly. What he's saying is—what I'm saying is—drop the box down on it, okay?—focus our _own_ magnetic field to the gate, knock out with the inverse what's going on inside the ceramic.
+
+Speaker 1: smart. And that should change the transition temperature to something we can work with. What are we seeing? That is—hopefully near room temperature.
+
+Speaker 1: what is that about—'the best mathematician's the lazy one'? What did you ask for?
+
+Speaker 2: I asked—are these type one?
+
+Speaker 1: yeah. What'd you call it?
+
+Speaker 2: no, no, no—are these type one, right here?
+
+Speaker 1: superconductors. Yeah, they're type one. What? Is that going to be a problem?
+
+Speaker 2: there's plenty lying around at work, but they're all barcoded, so...
+
+Speaker 1: well, if I have to buy the kids, I'll buy the kids.
+
+Speaker 2: what are you doing about this?
+
+Speaker 1: what? I can get ’em.
+
+Speaker 2: you can—are you sure? I thought you didn’t like this idea anyways.
+
+Speaker 1: yeah, I mean you're right. If you gotta buy ’em, you gotta buy ’em, but I think everything else we can take care of.
+
+Speaker 2: what are you doing about the source here?
+
+Speaker 1: you know that story about how NASA spent millions of dollars developing this pen that writes in zero-G? Did you ever read that?
+
+Speaker 2: yeah.
+
+Speaker 1: now, rush to solve the problem.
+
+Speaker 2: yeah, they used a pencil.
+
+Speaker 1: right—_a normal wooden pencil_.
+
+Speaker 1: just seems like Philip takes a NASA route almost every time. So, _platinum_, right? You have their diagram, eh? What does it say?
+
+Speaker 2: well, they use the ratio of both—platinum and _palladium_. But I don't know if that's necessary with the change I make. I think they're just showing off—if you have it, you gotta use it, right?
+
+Speaker 1: hey, you guys want to get a replacement router?
+
+Speaker 2: I'm putting down four ounces of palladium—did the Robert look at it?
+
+Speaker 1: yeah, I got it.
+
+Speaker 2: I can't fix it.
+
+Speaker 1: okay, where are you getting it?
+
+Speaker 2: um, Walmart, it's like fifty bucks.
+
+Speaker 1: okay.

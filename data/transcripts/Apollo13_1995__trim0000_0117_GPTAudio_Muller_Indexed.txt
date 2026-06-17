@@ -1,33 +1,31 @@
 ## Müller Transcript — apollo_power_discussion
 
-Speaker A: so you're telling me you can only give our guys (.) forty-five hours¿ (..) that brings them to about (..) there. (2.0) ((points at diagram)) gentlemen (.) that's not acceptable.
+Speaker A: so you're telling me (.) you can only give our guys forty- five- hours?
+Speaker B: (..) that brings them to about (.) there.
+((taps on map))
+Speaker A: gentlemen (.) that's not acceptable.
 
-Speaker B: [((overlapping)) Gene¿]
+Speaker C: [Gene-]
+Speaker D: [Gene (.) Gene] (.) we gotta talk about power here=
+Speaker A: =whoa whoa (.) guys (.) hang on a sec (.) power is everything (.) power is __everything__.
+Speaker D: (.) what do you mean?
+Speaker A: without it (.) they don't talk to us (.) they don't correct their traject'ry (.) they don't turn the heat shield around (.) we gotta turn everything off (.) now (.) they're not gonna make it to re-entry.
 
-Speaker C: [Gene-] we- we gotta talk about power here=
+Speaker D: what do you mean (.) everything?
+Speaker A: with everything on (.) the LEM draws sixty amps (.) at that rate (.) in sixteen hours (.) the batteries are dead (.) not forty-five (.) and so's the crew (.) we gotta get them down to twelve amps.
 
-Speaker D: =whoa whoa (.) guys (.) hang on (.) power is (.) everything.
+Speaker C: twelve (.) twelve (.)
+Speaker E: how many (.) twelve?
+Speaker D: you can't run a vacuum cleaner on twelve amps (.) John=
+Speaker A: =we gotta turn off the radars (.) cabin heater (.) instrument displays (.) the guidance computer (.) the whole (.) smat- 
+Speaker D: whoa (.) guidance computer? (.) what if they need to do another burn (.) Gene (.) they won't even know which way they're pointed.
 
-Speaker C: __power__ is everything¿ (..) what do you mean¿
+Speaker A: the more time we talk down here (.) the more juice they waste up there (.) I've been looking at the data for the past hour (.) that's the deal.
+Speaker D: that's the deal?
 
-Speaker D: without it (.) they don't (.) talk to us (.) they don't correct their (.) trajectory (.) they don't turn the heat shield around (.) we gotta turn everything off (.) now (.) they're not gonna make it to re-entry.
+((3.0 secs unintell. — murmurs))
+((background noise 2.5s))
 
-Speaker A: what do you mean (..) everything¿
-
-Speaker D: with everything on (.) the LEM draws (.) sixty amps (.) at that rate (.) in sixteen hours (.) the batteries are dead (.) not forty-five (..) and so's the crew (.) we gotta get them down to __twelve__ amps.
-
-Speaker C: twelve¿ i (.) i mean (..) how many (..) twelve¿
-
-Speaker B: you can't run a vacuum cleaner on twelve amps John (..) ((light laugh)) 
-
-Speaker D: we gotta turn off the radars (.) cabin heater (.) instrument displays (.) the guidance computer (.) the whole smack.
-
-Speaker C: whoa (.) guidance computer¿ what if (.) they need to do another burn¿ (.) Gene- they won't even know which way they're pointed¿
-
-Speaker D: the more time we talk down here (.) the more juice they waste up there (.) i've been looking at the data for the past hour (..) that's the deal.
-
-Speaker A: that's (.) the deal.
-
-Speaker C: (3.0) okay John (..) the minute we finish the burn (.) we'll power down the LEM.
+Speaker A: ok John (.) soon as (.) we finish the burn (.) we'll power down the LEM.
 
 Speaker D: alright.

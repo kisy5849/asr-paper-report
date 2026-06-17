@@ -1,25 +1,25 @@
-## Poland Transcript — Audio Sample
+## Poland Transcript — audio_file
 
-Speaker A: so you're telling me you can only give our guys FO-r-r-ty fi-i-ive HOURS? (long pause)
-Speaker A: it brings them to about there. (long pause)
-Speaker A: gentlemen, that's not ACCEPtable.
-Speaker B: (overlapping) [it's not-]
-Speaker C: (overlapping) we got a talk about POWER here.
-Speaker A: (overlapping) wo- WO-o-o guys, POWER is EVERYTHING.
-Speaker A: POWER is EVERYTHING.
-Speaker D: what do you mean?
-Speaker A: without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around. .. we gotta turn everything OFF. .. NOW.
-Speaker A: they're not gonna make it through re-entry.
-Speaker D: what do you mean EVERYTHING?
-Speaker A: with everything on, the LEM draws SIXTY amps. .. at that rate in SIXTEEN hours, the batteries are DEAD, not forty five. .. and SO'S the crew. we gotta get them down to TWELVE amps.
-Speaker E: TWELVE amps!
-Speaker F: how MANY?
-Speaker A: you can't run a vacuum cleaner on TWELVE amps, John!
-Speaker G: (overlapping) [i gotta] turn off [what?]
-Speaker A: you HAVE to turn off the RAdars, cabin HEAter, instrument displays, the GUIDance computer, the WHOLE smash.
-Speaker H: (overlapping) WHOA, guidance computer. .. what if they need to do another burn, Gene? .. they won't even know which way they're pointed.
-Speaker A: the more time we talk down here, the more juice they waste up there. .. i've been looking at the data for the past hour.
-Speaker D: that's the deal?
-Speaker A: that's the deal.
-Speaker A: okay, John. .. and when we finish the burn, we'll power down the LEM.
-Speaker D: ALL right.
+Speaker 1: So you're telling me you can only give our guys FOR-ty (.) fi::ve hours. (0.8) It brings them to a bath there. (2.0)
+Speaker 1: Gentlemen, that's not acceptable.
+Speaker 2: [NO::.]
+Speaker 3: [You got a] problem with the power here.
+Speaker 4: Woah, woah, guys, [POWER is] everything!
+Speaker 1: [Power is] everything.
+Speaker 5: What do you mean?
+Speaker 1: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around. (0.5) I gotta turn everything OFF. (0.3) Now. (0.5) They're not gonna make it through reentry.
+Speaker 5: What do you mean everything?
+Speaker 1: With everything on, the LM draws SIXTY amps. (0.5) At that rate, in SIXTEEN hours, the batteries are DEAD, not FORTY-FIVE. (1.0) And so's the crew. We gotta get them down to TWELVE amps.
+Speaker 6: [TWELVE amps?]
+Speaker 7: [How many?]
+Speaker 8: [You can't] run a vacuum cleaner on TWELVE amps, JOHN!
+Speaker 9: [I gotta] turn OFF.
+Speaker 10: [You have] to turn off the RA::DARS, cabin heater, instrument displays, the guidance computer, the WHOLE smack.
+Speaker 11: Woah, guidance computer.
+Speaker 12: What if they need to do another burn? (0.3) Jeen, they won't even know which way they're pointed.
+Speaker 1: The more time we talk, the long-the more juice they waste up there. I've been looking at the data for the past hour.
+Speaker 13: That's the deal?
+Speaker 1: That's the deal. (3.0)
+Speaker 1: Okay, John. (1.5)
+Speaker 1: And then we finish the burn, we'll power down the lem.
+Speaker 14: Alright.

@@ -1,23 +1,28 @@
-## Braun & Clarke Transcript — Audio_File_1
+## Braun & Clarke Transcript — Audio Clip
 
-P1: So you're telling me you can only give our guys forty- (.) five hours? (..) It brings 'em to about there. (3)
-P1: Gentlemen, that's NOT acceptable.
-P2: [overlap] We gotta talk about the POWER here.
-P3: [overlap] Woah, woah, guys.
-P2: [overlap] POWER is EVERYTHING.
-P4: [overlap] What do you mean?
-P2: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around. (..) We gotta turn EVERYTHING off. (..) NOW.
-P2: They're not gonna make it through re-entry.
-P4: [overlap] What do you mean EVERYTHING?
-P2: With EVERYTHING on, the lem draws SIXTY amps. (..) At that rate in SIXTEEN hours the batteries are DEAD, not forty-five. (..) And so's the crew. We gotta get them down to TWELVE amps.
-P5: [overlap] TWELVE amps. how MANY?
-P2: You CAN'T run a vacuum cleaner on TWELVE amps, John.
-P6: [overlap] We gotta turn off.
-P2: You HAVE to turn off the RADARS, cabin heater, instrument displays, the GUIDANCE computer, the WHOLE smack.
-P7: [overlap] Woah, GUIDANCE computer. what if they need to do another BURN, Gene, they won't even know which way they're pointed.
-P2: The more time we talk down here, the more juice they waste up there. I've been looking at the data for the past hour.
-P8: THAT'S the deal.
-P2: [overlap] THAT'S the deal. (3)
-P2: Okay, John. (..)
-P2: When we finish the burn, we'll power down the lem.
-P8: [overlap] Alright.
+Speaker 1: So you're telling me, you can only give our guys forty-five hours?
+Speaker 1: It brings them to about there.
+Speaker 1: Gentlemen, that's not acceptable.
+Speaker 2: ((in overlap)) ((indistinct speech)) We gotta talk about a power here.
+Speaker 2: Whoa, whoa, guys, power is everything.
+Speaker 2: Power is everything.
+Speaker 3: What do you mean?
+Speaker 2: Without it, they don't talk to us, they don't correct their trajectory, they don't turn the heat shield around.
+Speaker 2: ((pause)) We gotta turn everything off.
+Speaker 2: Now.
+Speaker 2: They're not gonna make it through re-entry.
+Speaker 3: What do you mean everything?
+Speaker 2: With everything on, the LEM draws sixty amps.
+Speaker 2: At that rate in sixteen hours, the batteries are dead, not forty-five.
+Speaker 2: And so's the crew. We gotta get them down to twelve amps.
+Speaker 3: Twelve amps? How many?
+Speaker 2: ((in overlap)) You can't run a vacuum cleaner on twelve amps.
+Speaker 2: We gotta turn off- We have to turn off the radars, cabin heater, instrument displays, the guidance computer, the whole smash.
+Speaker 3: Whoa, guidance computer. What, what if they need to do another burn? They won't even know which way they're pointed.
+Speaker 2: The more time we talk down here, the more juice they waste up there. I've been looking at the data for the past hour.
+Speaker 3: That's the deal?
+Speaker 2: That's the deal.
+((long pause))
+Speaker 3: Okay.
+Speaker 3: And when we finish the burn, we'll power down the LEM.
+Speaker 2: Alright.

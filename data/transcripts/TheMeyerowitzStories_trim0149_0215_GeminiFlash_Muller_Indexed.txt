@@ -1,17 +1,21 @@
-## Müller Transcript — audio_snippet
+## Müller Transcript — Audio Transcript
 
-Speaker A: I know I think I mentioned to you, I left the company I was with.
-Speaker A: and me and a couple other people started our own firm.
-Speaker A: It was scary in a big change but
-Speaker A: things have settled and we're doing __really__ well. `.`
-
-Speaker B: Marine is talking to a friend, Lyle Rourke, who works at the Times about getting someone to come up and review their show. `.`
-
-Speaker C: People were in recent years have essentially been ignored by [`(the firm)*`]
-Speaker D: [`They were great alternative to some of the bigger firms. I think this might put me back on the map.*`] `.`
-
-Speaker A: It's our logo. `.`
-
-Speaker F: Fifty-five dollars for a steak. `.`
-
-Speaker A: I think a combi-
+Speaker A: No, I think I mentioned to you, I left the company I was with, and me and a couple of other people started our own firm.
+(0.8)
+Speaker A: It was scary and a big change, but things have settled and we're doing __really__ well.
+(1.2)
+Narrator: {forte Moraine is talking to a friend},
+(1.0)
+Narrator: {forte My old work at the Times about getting someone to come up and review the show}.
+(1.0)
+Narrator: {piano People in recent years have essentially been ignored by the establishment}.
+(1.0)
+Narrator: {forte They're a great alternative to some of the bigger firms}.
+(0.8)
+Speaker A: I think this might put me back on the map.
+(0.5)
+Speaker A: It's our logo.
+(1.5)
+Speaker B: $55 for a steak.
+(0.8)
+Speaker C: I think a conversation.

@@ -1,47 +1,44 @@
 ## Müller Transcript — audio_transcription
 
-`((music playing in background))`
-
-Speaker A: makes a ceramic `clo::sed` resistant `.` knocks out the interior magnetic field `.` `[` Exactly `.`
-Speaker B: `[` Exactly `.` `]`
-Speaker A: `.` what `(.)` what he's saying is `.` what I'm saying is `.` `(draw out)` the box down on it `.` Okay `.` focus our own `__magnetic__` field to the gate `.` `__knock__` out with the inverse what's going on inside the surround `.`
-Speaker B: `__Smart__`. `.`
-Speaker A: And that's `.` change the transition temperature to `.` something that we can work with `.`
-Speaker A: What are we saying `(that is)` `¿` Hopefully `(.)` `__room__` temperature `.`
-
-Speaker A: What is that about `.` uh `(.)` the best mathematician's a lazy one `.` What did you ask for `¿`
-Speaker C: I asked `.` `(and) I need something to say` `.`
-Speaker A: Are these `type one` `(type one)` `¿`
-Speaker C: Yeah `.`
-Speaker A: `[` What'd you call it `.`
-Speaker C: `[` Just (xXx) `]` come on `.`
-Speaker A: `[` No no no `.` ]` are these type one `.`
-Speaker C: `[` Right `.` ]` superconductors `.`
-Speaker A: Yeah `.` they're type one `.` Yes `.` they're type one `.`
-Speaker F: Why `¿` Is that going to be a problem `¿`
-Speaker D: There's plenty lying around at work `.` but they're all un `.` barcode `.` so `.`
-Speaker C: Well `.` if I had to buy the kits `.` I'd buy the kits `.` What are you doing about the `__source here__` `¿`
-
-Speaker A: What `¿`
-Speaker A: I can get `(him)` `.`
-Speaker F: `(You can)` `¿` Are you sure `¿` Don't you know you didn't like this idea anyways `.`
-Speaker C: Yeah `.` I mean you're right `.` if you got to buy them `.` you got to buy them `.` but I think everything else we can take care of `.` What are you doing about the `__source here__` `¿` You know that story `.` about how `.` NASA spent millions of dollars to build this pen that writes in zero G `.`
-Speaker C: Did you ever read that `¿`
-Speaker G: Yeah `.`
-Speaker G: Now `(.)` Russia solved the problem `.`
-Speaker G: `__Yeah__` `.` they used a pencil `.`
-Speaker C: Right `.` A normal wooden pencil `.`
-`((sound of pen dropping))`
-
-Speaker C: Just seems like Philip takes an `__asterisk__` almost every time `.`
-Speaker C: Palladium `.` right `¿`
-Speaker H: Do you have their diagram `¿` What does it say `¿`
-Speaker C: Well they use the ratio of both `__platinum__` and palladium `.` But I don't know if that's necessary with the changes I made `.` I think they're just showing off `.` If you have it `.` you got to use it `.` right `¿`
-Speaker I: Hey `.` you guys want to get a replacement `__router__` `¿`
-Speaker C: I'm putting down four ounces of palladium `.`
-Speaker I: Uh `.` tell `__Robert__` to look at it `.`
-Speaker J: Yeah `.` I gotta `.`
-Speaker I: I can't fix it `.`
-Speaker C: Okay `.` Where are you getting it `¿`
-Speaker J: Um `.` Walmart `.` It's like fifty bucks `.`
-Speaker C: Okay `.` um `.`
+Speaker A: makes a ceramic less resistant, knocks out the interior magnetic field. exac:tly. [exac:tly]*.
+Speaker B: [What] what he's saying is=
+Speaker A: =What I'm saying is, drop the box down on it.
+Speaker A: Okay, focus our __own__ magnetic field to the gate, knock out with the __inverse__, what's going on inside the __ceramic__.
+Speaker B: That's smar:t.
+Speaker A: And that's the change the transition temperature to something we can work with.
+Speaker B: What are we saying that is?
+Speaker A: Hopefully nea:r room temperature.
+Speaker B: What is that about uh (.) the best mathematician's a lazy one? What did you ask for?
+Speaker A: I asked.
+Speaker B: Are these type one?
+Speaker A: Yeah.
+Speaker B: [What'd you call it]?
+Speaker A: [Just] come on.
+Speaker B: {allegro No no no} are these type one, right? {lento Superconductors}.
+Speaker A: Yeah, they're type one.
+Speaker B: Type one.
+Speaker B: Why?
+Speaker B: Is that gonna be a problem?
+Speaker A: There's plenty line around at work, but they're all on __barcodes__, so:.
+Speaker B: Well if I have to buy the kids, I'll buy the kids. What are you doing about the __source__ here?
+Speaker A: What?
+Speaker B: I can get 'em.
+Speaker A: You can? Are you __sure__? Don't you didn't like this idea __anyways__?
+Speaker B: Yeah, I mean you're right if you gotta buy 'em, you gotta buy 'em, but I think everything else we can take care of. What are you doing about the source here?
+Speaker A: You know that story about how NASA spent __millions__ of dollars to build this pen that __writes__ in zero: G? Did you ever read that?
+Speaker B: Yeah.
+Speaker A: And how __Russia__ solved the problem?
+Speaker B: Uh yeah, they use a __pencil__.
+Speaker A: Right, a __normal__ wooden pencil.
+Speaker A: Just seems like Phillip takes an __asteroid__ almost every time. So __Palladium__, right?
+Speaker B: [Do you have their] diagram, hey? What is it?
+Speaker A: [Well they use the] ratio of both __Platinum__ and __Palladium__, but I don't know if that's __necessary__ with the change I made. I think they're just __showing off__. If you have it, you gotta __use__ it, right?
+Speaker B: Hey, you guys wanna get a replacement rather?
+Speaker A: I'm putting down __four__ ounces of Palladium.
+Speaker B: Uh, did Robert look at it?
+Speaker A: Yeah, I already got it.
+Speaker B: I can't fix it.
+Speaker A: Okay.
+Speaker A: Where are you getting it?
+Speaker B: Um, Walmar:t, it's like __fifty__ bucks.
+Speaker A: Okay. Um.
